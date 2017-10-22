@@ -1,0 +1,36 @@
+{% load staticfiles %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+{% endblock %}
+
+<div class="container">
+    <div class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed ">
+
+                </button>
+                <a class="navbar-brand" href="/blog/post-list">Sreebash Blog!</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/register">Register</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+{% block content %}
+
+{% endblock %}
